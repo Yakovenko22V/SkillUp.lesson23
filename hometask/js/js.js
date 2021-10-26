@@ -107,3 +107,15 @@
 //   );
 //   return div;
 // }
+
+//task 2
+
+// const person = () => {
+//   const name = "Ivanov Ivan";
+//   return () => {
+//     console.log(name);
+//   };
+// };
+// const printName = person();
+// printName();
+
