@@ -119,3 +119,26 @@
 // const printName = person();
 // printName();
 
+//task 3
+
+// let clicks = localStorage.getItem("clicks");
+// if (localStorage.getItem("clicks") > 0) {
+//   clicks = localStorage.getItem("clicks");
+// } else {
+//   clicks = 0;
+// }
+
+// const btn = document.createElement("button");
+// btn.innerText = "Кнопка увеличения счетчика";
+// document.body.append(btn);
+
+// const numberClick = document.createElement("span");
+// document.body.append(numberClick);
+// numberClick.innerHTML = clicks;
+
+// btn.addEventListener("click", () => {
+//   clicks++;
+//   localStorage.setItem("clicks", clicks);
+//   numberClick.innerHTML = clicks;
+// });
+
